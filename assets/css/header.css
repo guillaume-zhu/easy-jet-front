@@ -1,0 +1,48 @@
+/***** HEADER STYLE *****/
+
+header {
+  height: 60px;
+  width: 100vw;
+  background-image: url(../imgs/headbar.gif);
+  background-size: cover;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header a {
+  font-size: 16px;
+  /* line-height: 50px; */
+  text-decoration: none;
+  color: white;
+}
+
+header button {
+  background-color: white;
+  border: none;
+  /* line-height: 30px; */
+  padding: 7px 10px;
+  color: #ff6600;
+}
+
+header > div {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  align-items: center;
+}
+
+header > div:last-child {
+  display: none;
+  flex-direction: column;
+  height: 70%;
+  justify-content: center;
+  /* border: 1px red solid; */
+  gap: 10px;
+}
+
+header i {
+  color: white;
+  font-size: 20px;
+}

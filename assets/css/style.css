@@ -1,0 +1,8 @@
+@import "./global.css";
+@import "./header.css";
+@import "./main1.css";
+@import "./main2.css";
+@import "./footer.css";
+@import "./media1125-1000.css" (max-width: 1125px);
+@import "./media1000-670.css" (max-width: 1000px);
+@import "./media-670.css" (max-width: 670px);

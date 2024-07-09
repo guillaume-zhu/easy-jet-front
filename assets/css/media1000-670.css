@@ -1,0 +1,97 @@
+/***** -----------MEDIA 1000px - 670px----------- ******/
+
+@media (max-width: 1000px) {
+  .container {
+    width: 590px;
+  }
+  /* BEACH SECTION */
+  .container-responsive {
+    width: 90vw;
+  }
+  .form-slogan-absolute {
+    left: 5%;
+    top: 40px;
+  }
+
+  /* BEACH BOTTOM */
+  .beach-bottom-div .last-beach-bottom {
+    display: none;
+  }
+
+  .beach-bottom {
+    width: 24%;
+  }
+
+  .beach-bottom button {
+    margin-bottom: 5px;
+  }
+
+  /* TRIPLE CARD 1 */
+  .triple-cards-section1 {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .triple-cards-section1 > div {
+    width: 48%;
+  }
+
+  .triple-cards-section1 > div:last-child {
+    width: 100%;
+    background-size: cover;
+  }
+
+  /* WORLWIDE & CREPE SECTION */
+  .worldwide-section,
+  .crepe-section {
+    flex-direction: column;
+  }
+
+  .worldwide-section > img,
+  .crepe-section > img {
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  .worldwide-section p,
+  .crepe-section p {
+    margin-bottom: 10px;
+    line-height: 20px;
+  }
+
+  .worldwide-section button,
+  .crepe-section button {
+    margin-top: 20px;
+  }
+
+  /* CARD CAROUSSEL */
+  .card-carrousel-section {
+    padding: 10px;
+  }
+
+  .card {
+    height: 100%;
+    width: 48%;
+  }
+
+  .button-card-carrousel {
+    top: 170px;
+  }
+
+  /* TRIPLE CARD 2 */
+  .triple-cards-section2 {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .triple-cards-section2 > div {
+    width: 48%;
+  }
+
+  .triple-cards-section2 > div:last-child {
+    width: 100%;
+    background-size: cover;
+  }
+}

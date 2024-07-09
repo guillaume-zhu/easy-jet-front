@@ -1,0 +1,128 @@
+/***** -----------MEDIA < 670px----------- ******/
+
+@media (max-width: 670px) {
+  .container {
+    width: 300px;
+  }
+
+  .container-responsive {
+    width: 95vw;
+  }
+
+  /* HEADER NAV */
+  header > div:nth-child(2) {
+    display: none;
+  }
+
+  header > div:last-child {
+    display: flex;
+  }
+
+  /* BEACH SECTION */
+  .slogan {
+    display: none;
+  }
+
+  .form-slogan-absolute {
+    top: 0;
+    left: 0;
+    /* border: 1px red solid; */
+    width: 100%;
+  }
+
+  .form-slogan {
+    /* border: 1px green solid; */
+    width: 100%;
+  }
+
+  .booking-menu {
+    margin: 30px auto;
+  }
+
+  /* BEACH BOTTOM */
+
+  .beach-bottom-section-absolute {
+    height: 175px;
+  }
+
+  .beach-bottom-div .third-beach-bottom {
+    display: none;
+  }
+
+  .beach-bottom-div {
+    justify-content: space-around;
+  }
+
+  .price-rule {
+    margin-left: 13%;
+  }
+
+  /* TRIPLE CARD 1 */
+  .triple-cards-section1 > div {
+    width: 100%;
+  }
+
+  /* CARD CAROUSSEL */
+  .card {
+    width: 100%;
+  }
+
+  .button-card-carrousel {
+    padding: 0 20px;
+  }
+
+  /* TRIPLE CARD 2 */
+  .triple-cards-section2 > div {
+    width: 100%;
+  }
+
+  /* MINI CARD CAROUSSEL */
+  .mini-cards-carrousel {
+    gap: 10px;
+  }
+
+  /* FOOTER */
+  footer {
+    padding: 25px;
+  }
+  .footer-div {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 100%;
+    gap: 10px;
+  }
+
+  .footer-div div:first-child ul > li:last-child {
+    display: none;
+  }
+
+  .footer-div div:nth-child(2) {
+    margin-left: 20px;
+  }
+
+  .footer-div div:nth-child(1),
+  .footer-div div:nth-child(2) {
+    margin-bottom: 20px;
+  }
+}
+
+/***** -----------MEDIA < 390px----------- ******/
+
+@media (max-width: 389px) {
+  /* FOOTER */
+  .footer-div {
+    width: 80%;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .footer-div div:nth-child(2) {
+    margin-left: 0px;
+  }
+
+  .footer-div div:nth-child(1),
+  .footer-div div:nth-child(2) {
+    margin-bottom: 0px;
+  }
+}

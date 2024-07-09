@@ -1,0 +1,16 @@
+/***** -----------MEDIA 1125px - 1000px----------- ******/
+
+.icon-header {
+  color: white;
+  font-size: 25px;
+  display: none;
+}
+
+@media (max-width: 1125px) {
+  .icon-header {
+    display: block;
+  }
+  header > div:first-child > a {
+    display: none;
+  }
+}

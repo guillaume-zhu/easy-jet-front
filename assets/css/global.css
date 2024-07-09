@@ -1,0 +1,40 @@
+/***** STYLE DE BASE ******/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "easyJet Rounded Book";
+  width: 100vw;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: "easyJet Headline";
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 13px;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+/***** HIDE SCROLLBAR *****/
+
+.card-carrousel-section::-webkit-scrollbar,
+.mini-cards-carrousel::-webkit-scrollbar {
+  display: none;
+}

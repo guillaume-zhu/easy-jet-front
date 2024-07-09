@@ -1,0 +1,233 @@
+/*******-------- MAIN - STYLE 2--------********/
+
+/****** TRIPLE CARDS 1 ******/
+
+.triple-cards-section1 {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+.triple-cards-section1 > div {
+  width: 285px;
+  height: 220px;
+  box-shadow: 1px 1px 10px lightgrey;
+  border-radius: 10px;
+  object-fit: cover;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.triple-cards-section1 div:first-child {
+  background-image: url(../imgs/oslo.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.triple-cards-section1 div:nth-child(2) {
+  background-image: url(../imgs/mayorque.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.triple-cards-section1 div:nth-child(3) {
+  background-image: url(../imgs/berlin.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.triple-cards-section1 > div > p {
+  font-size: 30px;
+}
+
+/***** WORLDWIDE + CREPE GENERAL RULES *****/
+
+.worldwide-section,
+.crepe-section {
+  box-shadow: 0px 0px 10px lightgrey;
+  margin-top: 50px;
+  display: flex;
+  font-size: 13px;
+  border-radius: 10px;
+}
+
+.worldwide-description,
+.crepe-description {
+  padding: 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.button-section {
+  background-color: #ff6600;
+  border: none;
+  line-height: 30px;
+  color: white;
+  padding: 0px 30px;
+  align-self: end;
+  border-radius: 3px;
+}
+
+/***** WORLDWIDE SECTION *****/
+
+.worldwide-section > img {
+  width: 650px;
+  height: 265px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 10px 0px 0px 10px;
+}
+
+/***** CARD CARROUSEL *****/
+
+.card-carrousel-section {
+  display: flex;
+  margin-top: 50px;
+  height: 380px;
+  gap: 25px;
+  align-items: flex-start;
+  overflow-x: scroll;
+}
+
+.card {
+  box-shadow: 0px 0px 10px lightgrey;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 370px;
+  width: 300px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.card-description {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.card-carrousel-section img {
+  width: 300px;
+  height: 140px;
+  object-fit: cover;
+  /* border-radius: 10px 10px 0px 0px; */
+}
+
+.button-card-carrousel {
+  background-color: #ff6600;
+  border: none;
+  line-height: 30px;
+  color: white;
+  padding: 0px 30px;
+  width: fit-content;
+  border-radius: 3px;
+  position: absolute;
+  top: 180px;
+}
+
+/****** CREPE SECTION ******/
+
+.crepe-section > img {
+  width: 650px;
+  height: 300px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 10px 0px 0px 10px;
+}
+
+/****** TRIPLE CARDS ******/
+
+.triple-cards-section2 {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+.triple-cards-section2 > div {
+  width: 285px;
+  height: 220px;
+  box-shadow: 1px 1px 10px lightgrey;
+  border-radius: 10px;
+  object-fit: cover;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.triple-cards-section2 div:first-child {
+  background-image: url(../imgs/triple-first.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.triple-cards-section2 div:nth-child(2) {
+  background-image: url(../imgs/triple-second.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.triple-cards-section2 div:nth-child(3) {
+  background-image: url(../imgs/triple-third.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.triple-cards-section2 > div > p {
+  font-size: 30px;
+}
+
+/******* MINI CARDS *******/
+
+.mini-cards-section {
+  margin-top: 50px;
+}
+
+.mini-cards-carrousel {
+  /* border: 3px solid blueviolet; */
+  display: flex;
+  gap: 20px;
+  overflow-x: scroll;
+  margin-top: 20px;
+}
+
+.mini-cards-carrousel p {
+  color: white;
+  line-height: 15px;
+}
+
+.mini-cards {
+  width: 145px;
+  height: 145px;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  flex-shrink: 0;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(135deg, rgba(0, 0, 0, 1) 0%, rgba(167, 167, 167, 1) 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.mini-cards i {
+  font-size: 40px;
+  margin-bottom: 10px;
+  align-self: center;
+}
+
+.mini-cards:hover {
+  background: rgb(255, 103, 0);
+  background: linear-gradient(180deg, rgba(255, 103, 0, 1) 61%, rgba(217, 88, 0, 1) 100%);
+  cursor: pointer;
+}
+
+.mini-cards i:hover {
+  font-size: 80px;
+}
